@@ -1,16 +1,6 @@
 ## Connect4
 ## A Java game based on the game Connect 4 from https://connect4.org/
 
-## How does it work?
-
-It works by using 2 classes and 1 interface and is based on using the terminal which uses `System.out.print` from Java.
-
-> The Board.java class implements BoardInterface that forces it to have the methods in BoardInterface. Board.java holds a 6x7 2D Array of empty dashes that is changed based on any player's valid move. There is a method that converts that 2D Array to a printable String to the terminal as well. It also handles the calculations if the user does a valid move or not (inserting in a valid not full column), adds in the valid moves to the board, and calculates if there's a winner via upwards diagonal, downwards diagonal, horizontal, or vertical.
-
-> The BoardGame.java class plays the game by randomizing the color player 1 & 2 are (red or green) and works by asking two players individually what column they want to place their chip in. It also gives the player a random amount of tries between 2 and 4 to put in a valid column that does not contain letters, and also calls Board.java to check is full, or to put in a valid number between 1-7 for using up those tries also if any of those are found to be invalid. After giving the player a random amount of tries between 2 and 4, it prints out the current board String from Board.java to the user. Then, it checks for a winner from Board.java and continues all of the steps listed here until there is a winner or a tie.
-
-> The BoardInterface.java interface contains four methods required for any classes that implement it to use, which makes all the board's output into a string, determines if a player's move is valid, determines what to do with the information of a color and column a player is attempting to play with, and checks if there's a winner via upwards diagonal, downwards diagonal, horizontal, or vertical.
-
 ## How does anyone play the game?
 
 Firstly, note the game is designed to be played with two players. However, it is possible to play by yourself as well.
@@ -28,6 +18,16 @@ Player 1 and player 2 will repeat their steps until there is a game decision, wh
 Either player 1 or player 2 can win if either of the players reach any 4-character long row diagonally, vertically, or horizontally.
 
 The game can tie if no player reaches any 4-character long row diagonally, vertically, or horizontally.
+
+## How does it work?
+
+It works by using 2 classes and 1 interface and is based on using the terminal which uses `System.out.print` from Java.
+
+> The Board.java class implements BoardInterface that forces it to have the methods in BoardInterface. Board.java holds a 6x7 2D Array of empty dashes that is changed based on any player's valid move. There is a method that converts that 2D Array to a printable String to the terminal as well. It also handles the calculations if the user does a valid move or not (inserting in a valid not full column), adds in the valid moves to the board, and calculates if there's a winner via upwards diagonal, downwards diagonal, horizontal, or vertical.
+
+> The BoardGame.java class plays the game by randomizing the color player 1 & 2 are (red or green) and works by asking two players individually what column they want to place their chip in. It also gives the player a random amount of tries between 2 and 4 to put in a valid column that does not contain letters, and also calls Board.java to check is full, or to put in a valid number between 1-7 for using up those tries also if any of those are found to be invalid. After giving the player a random amount of tries between 2 and 4, it prints out the current board String from Board.java to the user. Then, it checks for a winner from Board.java and continues all of the steps listed here until there is a winner or a tie.
+
+> The BoardInterface.java interface contains four methods required for any classes that implement it to use, which makes all the board's output into a string, determines if a player's move is valid, determines what to do with the information of a color and column a player is attempting to play with, and checks if there's a winner via upwards diagonal, downwards diagonal, horizontal, or vertical.
 
 ## Compiling
 
