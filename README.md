@@ -5,7 +5,7 @@
 
 Firstly, note the game is designed to be played with two players. However, it is possible to play by yourself as well.
 
-If you are playing with someone else able to access your terminal, it may be best to play rock-paper-scissors on who is which color (red or green).
+If you are playing with someone else able to access your terminal, it is recommended to play a game such as rock-paper-scissors to determine who is which color (red or green).
 
 To play the game, the AI will randomize what color player 1 and 2 is. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy.
 
