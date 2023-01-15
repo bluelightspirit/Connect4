@@ -8,7 +8,7 @@ If you are playing with someone else able to access your terminal, it is recomme
 
 First, all 3 files (BoardGame.java, Board.java, BoardInterface.java) must be downloaded all in the same location. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
 
-Then, to play the game, the AI will randomize what color player 1 and 2 is. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy.
+Then, to play the game, the AI will randomize what color player 1 and 2 is. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy (This will only be done at the beginning of the game).
 
 After that, player 1 shall choose an unfilled column between 1-7. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column.
 
