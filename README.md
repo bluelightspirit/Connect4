@@ -9,7 +9,7 @@ If you are playing with someone else able to access your terminal, it is recomme
 First, all 3 files [BoardGame.java](https://github.com/bluelightspirit/Connect4/blob/main/BoardGame.java), 
 [Board.java](https://github.com/bluelightspirit/Connect4/blob/main/Board.java), & 
 [BoardInterface.java](https://github.com/bluelightspirit/Connect4/blob/main/BoardInterface.java) 
-must be downloaded all in the same location (like a folder). It is suggested to download from [Releases](https://github.com/bluelightspirit/Connect4/releases/) or copy the repo from a console like Git. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE that supports Java such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
+must be downloaded all in the same location (like a folder). It is suggested to download the ZIP file from [Releases](https://github.com/bluelightspirit/Connect4/releases/) or copy the repo from a console like Git. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE that supports Java such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
 
 Then, to play the game, the **AI will randomize what color player 1 and 2 is**. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy.\
 (This will only be done at the beginning of the game)
