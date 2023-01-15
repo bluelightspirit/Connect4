@@ -6,7 +6,7 @@
 Note the game is designed to be played with two players. However, it is possible to play by yourself as well.
 If you are playing with someone else able to access your terminal, it is recommended to play a game such as rock-paper-scissors to determine who is which color (red or green).
 
-First, all 3 files ([BoardGame.java](https://github.com/bluelightspirit/Connect4/blob/main/BoardGame.java), 
+First, all 3 files [BoardGame.java](https://github.com/bluelightspirit/Connect4/blob/main/BoardGame.java), 
 [Board.java](https://github.com/bluelightspirit/Connect4/blob/main/Board.java), 
 [BoardInterface.java](https://github.com/bluelightspirit/Connect4/blob/main/BoardInterface.java) 
 must be downloaded all in the same location (like a folder). It is suggested to download from [Releases](https://github.com/bluelightspirit/Connect4/releases/) or copy the repo from a console like Git. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE that supports Java such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
