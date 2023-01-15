@@ -17,9 +17,7 @@ Then, player 2 shall choose an unfilled column between 1-7, just like player 1. 
 If either player runs out of tries, their turn is skipped. The player tries are reset every time any player's turn begins again.
 
 Player 1 and player 2 will repeat their steps until there is a game decision, where there is a tie, player 1 wins, or player 2 wins.
-
 Either player 1 or player 2 can win if either of the players reach any 4-character long row diagonally, vertically, or horizontally.
-
 The game can tie if no player reaches any 4-character long row diagonally, vertically, or horizontally.
 
 ## More specifics on the game
