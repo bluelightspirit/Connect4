@@ -6,7 +6,7 @@
 Note the game is designed to be played with two players. However, it is possible to play by yourself as well.
 If you are playing with someone else able to access your terminal, it is recommended to play a game such as rock-paper-scissors to determine who is which color (red or green).
 
-First, all 3 files (BoardGame.java, Board.java, BoardInterface.java) must be downloaded all in the same location. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE such as IntelliJ or BlueJ.
+First, all 3 files (BoardGame.java, Board.java, BoardInterface.java) must be downloaded all in the same location. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
 
 Then, to play the game, the AI will randomize what color player 1 and 2 is. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy.
 
