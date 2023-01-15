@@ -8,15 +8,16 @@ If you are playing with someone else able to access your terminal, it is recomme
 
 First, all 3 files (BoardGame.java, Board.java, BoardInterface.java) must be downloaded all in the same location. Then, all 3 files should be compiled. After that, BoardGame.java can be ran using any IDE such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
 
-Then, to play the game, the AI will randomize what color player 1 and 2 is. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy (This will only be done at the beginning of the game).
+Then, to play the game, the **AI will randomize what color player 1 and 2 is**. If you're playing with someone else, whatever color the AI chose as player 1 should go first. If you're playing by yourself, you can pretend you're going against a mighty enemy.\
+(This will only be done at the beginning of the game)
 
-After that, player 1 shall choose & type an unfilled column between 1-7 and press "ENTER". Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column.
+After that, **player 1 shall choose & type an unfilled column between 1-7 and press "ENTER"**. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column.
 
-Then, player 2 shall choose & type an unfilled column between 1-7 and press "ENTER", just like player 1. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column.
+Then, **player 2 shall choose & type an unfilled column between 1-7 and press "ENTER"**, just like player 1. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column.
 
 If either player runs out of tries, their turn is skipped. The player tries are reset every time any player's turn begins again.
 
-Player 1 and player 2 will repeat their steps until there is a game decision, where there is a tie, player 1 wins, or player 2 wins.\
+**Player 1 and player 2 will repeat their steps until there is a game decision**, where there is a tie, player 1 wins, or player 2 wins.\
 Either player 1 or player 2 can win if either of the players reach any 4-character long row diagonally, vertically, or horizontally.\
 The game can tie if no player reaches any 4-character long row diagonally, vertically, or horizontally.
 
