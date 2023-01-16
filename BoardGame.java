@@ -102,55 +102,28 @@ public class BoardGame {
             winner = board.checkWinner();
             // winner is R [Red]
             switch (winner) {
-                case "R":
+                case "R" -> {
                     System.out.printf(">A WINNER\n>HAS BEEN\n>DETECTED!\n>Congratulations, %s [Red] (Player %d)!\n", winner, playerColorRed);
                     System.out.println(board);
                     System.out.printf("The winner is %s [Red] (Player %d)!!!", winner, playerColorRed);
                     isWinner = true;
-                    break;
+                }
                 // winner is G [Green]
-                case "G":
+                case "G" -> {
                     System.out.printf(">A WINNER\n>HAS BEEN\n>DETECTED!\n>Congratulations, %s [Green] (Player %d)!\n", winner, playerColorGreen);
                     System.out.println(board);
                     System.out.printf("The winner is %s [Green] (Player %d)!!!", winner, playerColorGreen);
                     isWinner = true;
-                    break;
+                }
                 // tie between R [Red] & G [Green]
-                case "T":
+                case "T" -> {
                     System.out.printf(">A TIE\n>HAS BEEN\n>DETECTED!\n>R [Red] (Player %d) and G [Green] (Player %d) are now in stalemate.\n", playerColorRed, playerColorGreen);
                     System.out.println(board);
                     System.out.printf("The game is tied [Red (Player %d) & Green (Player %d) Stalemate]", playerColorRed, playerColorGreen);
-                    break;
+                }
             }
         }
         // close scanner after done scanning for input from user
         cIn.close();
     }
 }
-        /*
-        old code to ask what color player 1 wants (before the while (!isWinner))
-        scrapped due to project 5 instruction to only consider columns entered
-        System.out.println("PLEASE NOTE: Entering R first overlooks entering G first!");
-        System.out.println("Enter color for player 1 (Red (R) or Green (G)) > ");
-        int tries=0;
-        while (!(player1Color.contains("R") || player1Color.contains("G"))) {
-            player1Color = player1Color.toUpperCase();
-            if (player1Color.contains("R") || player1Color.contains("G")){
-                break;
-            }
-            else if (tries>0) {
-                System.out.println("PLZ PICK A VALID COLOR, I BEG U!\nOPTIONS:\nGreen (G)\nRed (R)");
-            }
-            player1Color = cIn.nextLine();
-            tries++;
-        }
-        if (player1Color.contains("R")){
-            player1Color="R";
-            player2Color="G";
-        }
-        else if (player1Color.contains("G")){
-            player1Color="G";
-            player2Color="R";
-        }
-
-        */
