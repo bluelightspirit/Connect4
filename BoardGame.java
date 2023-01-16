@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * Board
+ * BoardGame
  * <p>
  *
  * @author Gary Young
