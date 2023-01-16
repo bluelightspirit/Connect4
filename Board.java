@@ -3,7 +3,7 @@
  * <p>
  *
  * @author Gary Young
- * Original version: 11/29/2022
+ * @description Original version: 11/29/2022
  * @version 01/15/2022
  * Board sets up the board for Connect4.
  */

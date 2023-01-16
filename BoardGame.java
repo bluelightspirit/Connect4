@@ -4,7 +4,7 @@ import java.util.Scanner;
  * <p>
  *
  * @author Gary Young
- * Original version: 11/29/2022
+ * @description Original version: 11/29/2022
  * @version 01/16/2023
  * BoardGame plays the Connect4 game from Board
  */
