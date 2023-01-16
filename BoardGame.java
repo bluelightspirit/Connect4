@@ -5,7 +5,7 @@ import java.util.Scanner;
  *
  * @author Gary Young
  * Original version: 11/29/2022
- * @version 01/15/2023
+ * @version 01/16/2023
  * BoardGame plays the Connect4 game from Board
  */
 
@@ -19,7 +19,7 @@ public class BoardGame {
         int playerColorGreen = 2;
         // randomize color of players
             int playerColorRNG = (int) (Math.random()*2); // 0 to 1
-            if (playerColorRNG==1){
+            if (playerColorRNG==1) {
                 player1Color = "G";
                 player2Color = "R";
                 playerColorGreen = 1;
@@ -86,7 +86,7 @@ public class BoardGame {
                 if (Board.numTries >= 2){
                     System.out.printf(">Warning to player %s!!!\n>Error: Input of \"%s\" is NOT an integer!\n>You have %d tries remaining\n>Please select a non-full column from 1-7!\n", Board.turn, colSearch, Board.numTries);
                 }
-                else if (Board.numTries == 1){
+                else if (Board.numTries == 1) {
                     System.out.printf(">Warning to player %s!!!\n>Error: Input of \"%s\" is NOT an integer!\n>You have %d try remaining\n>Please select a non-full column from 1-7!\n", Board.turn, colSearch, Board.numTries);
                 }
                 else if (Board.numTries == 0) {
