@@ -32,7 +32,7 @@ The game can tie if no player reaches any 4-character long row diagonally, verti
 
 ## More specifics on the game
 
-If a player presses only the enter key and nothing else, it will count toward their tries.
+If the player presses only the enter key and nothing else, it will count toward their tries.
 
 ## How does it work?
 
