@@ -44,6 +44,13 @@ It works by using 2 classes and 1 interface and is based on using the terminal w
 
 > The BoardInterface.java interface contains four methods required for any classes that implement it to use, which makes all the board's output into a string, determines if a player's move is valid, determines what to do with the information of a color and column a player is attempting to play with, and checks if there's a winner via upwards diagonal, downwards diagonal, horizontal, or vertical.
 
+## What did I learn?
+
+1) How to use an interface and force classes to obey the instructions of that interface.
+2) How to use multiple classes in Java.
+3) How to use switch statements rather than if statements.
+4) How to close a scanner after the scanner is done searching for input from the player.
+
 ## Compiling
 
 This program uses solely Java to compile.
