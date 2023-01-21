@@ -1,5 +1,5 @@
-## Connect4
-## A Java game based on the game Connect 4 from https://connect4.org/
+# Connect4
+## A Java game that uses the terminal where 2 players take turns to try to connect 4 in a row, via diagonally, vertically, or horizontally, based on the game Connect 4 from https://connect4.org/
 
 ## How does anyone play the game?
 
