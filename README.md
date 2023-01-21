@@ -3,7 +3,7 @@
 
 ## How does anyone play the game?
 
-Anyone should be aiming to first see the game that looks like this:
+Anyone should be aiming to see the game that looks like this:
 ![connect4_start](https://user-images.githubusercontent.com/22280271/213864111-a801ad48-aa36-47b8-9618-8c06e46d6fdf.jpg)
 
 Note the game is designed to be played with two players. However, it is possible to play by yourself as well.
