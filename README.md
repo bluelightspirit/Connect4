@@ -3,6 +3,9 @@
 
 ## How does anyone play the game?
 
+Anyone should be aiming to first see the game that looks like this:
+![connect4_start](https://user-images.githubusercontent.com/22280271/213864111-a801ad48-aa36-47b8-9618-8c06e46d6fdf.jpg)
+
 Note the game is designed to be played with two players. However, it is possible to play by yourself as well.
 If you are playing with someone else able to access your terminal, it is recommended to play a game such as rock-paper-scissors to determine who is which color (red or green).
 
@@ -15,6 +18,9 @@ Then, to play the game, the **AI will randomize what color player 1 and 2 is**. 
 (This will only be done at the beginning of the game)
 
 After that, **player 1 shall choose & type an unfilled column between 1-7 and press "ENTER"**. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column. This will be referenced as **player 1's turn**.
+
+Inserting a valid column should make the terminal look like this:
+![connect4_chipinsert](https://user-images.githubusercontent.com/22280271/213864189-7eebd2e1-b630-45fa-81e5-8ac4f764635c.jpg)
 
 Then, **player 2 shall choose & type an unfilled column between 1-7 and press "ENTER"**, just like player 1. Then, whatever column they chose should fill up the board and display that to the user if they chose a valid one. If they did not choose a valid one, they would have a randomized number between 1-3 tries left (also displayed to the user) to choose a valid, unfilled column. This will be referenced as **player 2's turn**.
 
