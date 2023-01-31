@@ -53,7 +53,7 @@ It works by using 2 classes and 1 interface and is based on using the terminal w
 
 ## What goal(s) did I accomplish?
 
-I created a number-based game like the popular board game Connect Four!
+I created a game like the popular board game Connect Four!
 
 ## Compiling
 
